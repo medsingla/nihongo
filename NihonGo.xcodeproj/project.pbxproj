@@ -1,0 +1,1141 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27785AF2B6840F4A0BEC8E9E /* Pods_NihonGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204CC8EA774C6E21EC7B4AA1 /* Pods_NihonGo.framework */; };
+		96AF8D235DA6A5064A383C1F /* Pods_NihonGo_NihonGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CB7CDCA6E00B014247972B /* Pods_NihonGo_NihonGoUITests.framework */; };
+		BD7BEC56822B5CEAB610C042 /* Pods_NihonGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899C0C247F3073F26BEFCA11 /* Pods_NihonGoTests.framework */; };
+		CA1D33A62BB5D0E30006E623 /* NihonGoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33A52BB5D0E30006E623 /* NihonGoApp.swift */; };
+		CA1D33A82BB5D0E30006E623 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33A72BB5D0E30006E623 /* ContentView.swift */; };
+		CA1D33AA2BB5D0E70006E623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1D33A92BB5D0E70006E623 /* Assets.xcassets */; };
+		CA1D33AD2BB5D0E70006E623 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1D33AC2BB5D0E70006E623 /* Preview Assets.xcassets */; };
+		CA1D33B72BB5D0E70006E623 /* NihonGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33B62BB5D0E70006E623 /* NihonGoTests.swift */; };
+		CA1D33C12BB5D0E70006E623 /* NihonGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33C02BB5D0E70006E623 /* NihonGoUITests.swift */; };
+		CA1D33C32BB5D0E70006E623 /* NihonGoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33C22BB5D0E70006E623 /* NihonGoUITestsLaunchTests.swift */; };
+		CA1D33D32BB5D2490006E623 /* Vocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33D22BB5D2490006E623 /* Vocab.swift */; };
+		CA1D33D52BB5D3470006E623 /* vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = CA1D33D42BB5D3470006E623 /* vocab.json */; };
+		CA1D33D72BB5D5FF0006E623 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33D62BB5D5FF0006E623 /* StorageManager.swift */; };
+		CA1D33D92BB5D8500006E623 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33D82BB5D8500006E623 /* Manager.swift */; };
+		CA1D33DB2BB5D9D90006E623 /* kanji.json in Resources */ = {isa = PBXBuildFile; fileRef = CA1D33DA2BB5D9D90006E623 /* kanji.json */; };
+		CA1D33DD2BB5DA670006E623 /* Kanji.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33DC2BB5DA670006E623 /* Kanji.swift */; };
+		CA1D33DF2BB6685F0006E623 /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33DE2BB6685F0006E623 /* FlashCard.swift */; };
+		CA1D33E12BB74ED60006E623 /* FlashCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33E02BB74ED60006E623 /* FlashCardView.swift */; };
+		CA1D33E32BB758F50006E623 /* Vocab+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33E22BB758F50006E623 /* Vocab+Color.swift */; };
+		CA1D33E52BB86AA20006E623 /* VocabLessonPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33E42BB86AA20006E623 /* VocabLessonPicker.swift */; };
+		CA1D33E82BB876740006E623 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33E72BB876740006E623 /* LessonView.swift */; };
+		CA25FBF52BD89F700074C8F5 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA25FBF42BD89F700074C8F5 /* SettingsButton.swift */; };
+		CA25FBF72BDEEFAC0074C8F5 /* StreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA25FBF62BDEEFAC0074C8F5 /* StreakView.swift */; };
+		CA72D7912BC4601600700256 /* LiveTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7902BC4601600700256 /* LiveTextView.swift */; };
+		CA72D7932BC4A3E900700256 /* LiveTranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7922BC4A3E900700256 /* LiveTranslationView.swift */; };
+		CA72D7952BC4D15F00700256 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7942BC4D15F00700256 /* CustomTextView.swift */; };
+		CA72D7972BC7314900700256 /* Manager+LiveText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7962BC7314900700256 /* Manager+LiveText.swift */; };
+		CA72D7BF2BC76C1A00700256 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA72D7A02BC7338400700256 /* WidgetKit.framework */; };
+		CA72D7C02BC76C1A00700256 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA72D7A22BC7338400700256 /* SwiftUI.framework */; };
+		CA72D7C32BC76C1A00700256 /* VocabWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7C22BC76C1A00700256 /* VocabWidgetBundle.swift */; };
+		CA72D7C52BC76C1A00700256 /* VocabWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7C42BC76C1A00700256 /* VocabWidget.swift */; };
+		CA72D7C72BC76C1B00700256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA72D7C62BC76C1B00700256 /* Assets.xcassets */; };
+		CA72D7CB2BC76C1B00700256 /* VocabWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CA72D7BE2BC76C1A00700256 /* VocabWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA72D7D02BC76F2000700256 /* VocabWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7C42BC76C1A00700256 /* VocabWidget.swift */; };
+		CA72D7D22BC770E100700256 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33D62BB5D5FF0006E623 /* StorageManager.swift */; };
+		CA72D7D32BC7718700700256 /* Vocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D33D22BB5D2490006E623 /* Vocab.swift */; };
+		CA72D7D52BC7779A00700256 /* vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = CA1D33D42BB5D3470006E623 /* vocab.json */; };
+		CA991DBA2BBC6842004C8944 /* KanjiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA991DB92BBC6841004C8944 /* KanjiView.swift */; };
+		CA991DBC2BBC6C3D004C8944 /* KanjiBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA991DBB2BBC6C3D004C8944 /* KanjiBottomView.swift */; };
+		CA991DBE2BBC8685004C8944 /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA991DBD2BBC8685004C8944 /* Translator.swift */; };
+		CA991DC02BBCA87A004C8944 /* KanjiLessonPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA991DBF2BBCA87A004C8944 /* KanjiLessonPicker.swift */; };
+		CA991DC22BBCAB97004C8944 /* Manager+Kanji.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA991DC12BBCAB97004C8944 /* Manager+Kanji.swift */; };
+		CA991DC42BBCABFF004C8944 /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA991DC32BBCABFF004C8944 /* TextToSpeech.swift */; };
+		CA991DC62BBDBEA6004C8944 /* DestinationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA991DC52BBDBEA6004C8944 /* DestinationInfo.swift */; };
+		CA991DC82BBF56DA004C8944 /* HintButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA991DC72BBF56DA004C8944 /* HintButtonView.swift */; };
+		CA991DCA2BC09EFE004C8944 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA991DC92BC09EFE004C8944 /* DismissButton.swift */; };
+		CAF43D992BB8DD5A00B95A44 /* KanjiPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF43D982BB8DD5A00B95A44 /* KanjiPracticeView.swift */; };
+		CAF43D9F2BB8E10D00B95A44 /* KanjiWritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF43D9E2BB8E10D00B95A44 /* KanjiWritingView.swift */; };
+		CAF43DA12BB8E7DE00B95A44 /* Manager+FlashCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF43DA02BB8E7DE00B95A44 /* Manager+FlashCards.swift */; };
+		CAF43DA32BB920EA00B95A44 /* KanjiRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF43DA22BB920EA00B95A44 /* KanjiRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA1D33B32BB5D0E70006E623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D339A2BB5D0E30006E623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1D33A12BB5D0E30006E623;
+			remoteInfo = NihonGo;
+		};
+		CA1D33BD2BB5D0E70006E623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D339A2BB5D0E30006E623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1D33A12BB5D0E30006E623;
+			remoteInfo = NihonGo;
+		};
+		CA72D7C92BC76C1B00700256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D339A2BB5D0E30006E623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA72D7BD2BC76C1A00700256;
+			remoteInfo = VocabWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA72D7B62BC7338600700256 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CA72D7CB2BC76C1B00700256 /* VocabWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		193AD95627DD91ACB3D86319 /* Pods-NihonGo-NihonGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NihonGo-NihonGoUITests.release.xcconfig"; path = "Target Support Files/Pods-NihonGo-NihonGoUITests/Pods-NihonGo-NihonGoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		204CC8EA774C6E21EC7B4AA1 /* Pods_NihonGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NihonGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CB7CDCA6E00B014247972B /* Pods_NihonGo_NihonGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NihonGo_NihonGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		899C0C247F3073F26BEFCA11 /* Pods_NihonGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NihonGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B333659578469D55218F789 /* Pods-NihonGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NihonGo.debug.xcconfig"; path = "Target Support Files/Pods-NihonGo/Pods-NihonGo.debug.xcconfig"; sourceTree = "<group>"; };
+		96513448988A31435D15F7FE /* Pods-NihonGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NihonGo.release.xcconfig"; path = "Target Support Files/Pods-NihonGo/Pods-NihonGo.release.xcconfig"; sourceTree = "<group>"; };
+		B75C4017348DE4477EC241C4 /* Pods-NihonGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NihonGoTests.debug.xcconfig"; path = "Target Support Files/Pods-NihonGoTests/Pods-NihonGoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C23A6A43D452ACD37D6C410D /* Pods-NihonGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NihonGoTests.release.xcconfig"; path = "Target Support Files/Pods-NihonGoTests/Pods-NihonGoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA1D33A22BB5D0E30006E623 /* NihonGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NihonGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1D33A52BB5D0E30006E623 /* NihonGoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonGoApp.swift; sourceTree = "<group>"; };
+		CA1D33A72BB5D0E30006E623 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA1D33A92BB5D0E70006E623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA1D33AC2BB5D0E70006E623 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA1D33B22BB5D0E70006E623 /* NihonGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NihonGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1D33B62BB5D0E70006E623 /* NihonGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonGoTests.swift; sourceTree = "<group>"; };
+		CA1D33BC2BB5D0E70006E623 /* NihonGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NihonGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1D33C02BB5D0E70006E623 /* NihonGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonGoUITests.swift; sourceTree = "<group>"; };
+		CA1D33C22BB5D0E70006E623 /* NihonGoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonGoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA1D33D22BB5D2490006E623 /* Vocab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocab.swift; sourceTree = "<group>"; };
+		CA1D33D42BB5D3470006E623 /* vocab.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vocab.json; sourceTree = "<group>"; };
+		CA1D33D62BB5D5FF0006E623 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		CA1D33D82BB5D8500006E623 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		CA1D33DA2BB5D9D90006E623 /* kanji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kanji.json; sourceTree = "<group>"; };
+		CA1D33DC2BB5DA670006E623 /* Kanji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanji.swift; sourceTree = "<group>"; };
+		CA1D33DE2BB6685F0006E623 /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
+		CA1D33E02BB74ED60006E623 /* FlashCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardView.swift; sourceTree = "<group>"; };
+		CA1D33E22BB758F50006E623 /* Vocab+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vocab+Color.swift"; sourceTree = "<group>"; };
+		CA1D33E42BB86AA20006E623 /* VocabLessonPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabLessonPicker.swift; sourceTree = "<group>"; };
+		CA1D33E72BB876740006E623 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		CA25FBF42BD89F700074C8F5 /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
+		CA25FBF62BDEEFAC0074C8F5 /* StreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakView.swift; sourceTree = "<group>"; };
+		CA72D7902BC4601600700256 /* LiveTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTextView.swift; sourceTree = "<group>"; };
+		CA72D7922BC4A3E900700256 /* LiveTranslationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTranslationView.swift; sourceTree = "<group>"; };
+		CA72D7942BC4D15F00700256 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		CA72D7962BC7314900700256 /* Manager+LiveText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Manager+LiveText.swift"; sourceTree = "<group>"; };
+		CA72D7A02BC7338400700256 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CA72D7A22BC7338400700256 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CA72D7BE2BC76C1A00700256 /* VocabWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VocabWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA72D7C22BC76C1A00700256 /* VocabWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabWidgetBundle.swift; sourceTree = "<group>"; };
+		CA72D7C42BC76C1A00700256 /* VocabWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabWidget.swift; sourceTree = "<group>"; };
+		CA72D7C62BC76C1B00700256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA72D7C82BC76C1B00700256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA72D7CF2BC76DAA00700256 /* VocabWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VocabWidgetExtension.entitlements; sourceTree = "<group>"; };
+		CA991DB92BBC6841004C8944 /* KanjiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiView.swift; sourceTree = "<group>"; };
+		CA991DBB2BBC6C3D004C8944 /* KanjiBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiBottomView.swift; sourceTree = "<group>"; };
+		CA991DBD2BBC8685004C8944 /* Translator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
+		CA991DBF2BBCA87A004C8944 /* KanjiLessonPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiLessonPicker.swift; sourceTree = "<group>"; };
+		CA991DC12BBCAB97004C8944 /* Manager+Kanji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Manager+Kanji.swift"; sourceTree = "<group>"; };
+		CA991DC32BBCABFF004C8944 /* TextToSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
+		CA991DC52BBDBEA6004C8944 /* DestinationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationInfo.swift; sourceTree = "<group>"; };
+		CA991DC72BBF56DA004C8944 /* HintButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintButtonView.swift; sourceTree = "<group>"; };
+		CA991DC92BC09EFE004C8944 /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+		CAF43D982BB8DD5A00B95A44 /* KanjiPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiPracticeView.swift; sourceTree = "<group>"; };
+		CAF43D9E2BB8E10D00B95A44 /* KanjiWritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiWritingView.swift; sourceTree = "<group>"; };
+		CAF43DA02BB8E7DE00B95A44 /* Manager+FlashCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Manager+FlashCards.swift"; sourceTree = "<group>"; };
+		CAF43DA22BB920EA00B95A44 /* KanjiRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiRecognizer.swift; sourceTree = "<group>"; };
+		E74843B52677D78DB7EBD28E /* Pods-NihonGo-NihonGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NihonGo-NihonGoUITests.debug.xcconfig"; path = "Target Support Files/Pods-NihonGo-NihonGoUITests/Pods-NihonGo-NihonGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA1D339F2BB5D0E30006E623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27785AF2B6840F4A0BEC8E9E /* Pods_NihonGo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1D33AF2BB5D0E70006E623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7BEC56822B5CEAB610C042 /* Pods_NihonGoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1D33B92BB5D0E70006E623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AF8D235DA6A5064A383C1F /* Pods_NihonGo_NihonGoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA72D7BB2BC76C1A00700256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA72D7C02BC76C1A00700256 /* SwiftUI.framework in Frameworks */,
+				CA72D7BF2BC76C1A00700256 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323DA18F7A0ED9C46756B270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				204CC8EA774C6E21EC7B4AA1 /* Pods_NihonGo.framework */,
+				55CB7CDCA6E00B014247972B /* Pods_NihonGo_NihonGoUITests.framework */,
+				899C0C247F3073F26BEFCA11 /* Pods_NihonGoTests.framework */,
+				CA72D7A02BC7338400700256 /* WidgetKit.framework */,
+				CA72D7A22BC7338400700256 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2740D6E211C86DCBBC37B5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B333659578469D55218F789 /* Pods-NihonGo.debug.xcconfig */,
+				96513448988A31435D15F7FE /* Pods-NihonGo.release.xcconfig */,
+				E74843B52677D78DB7EBD28E /* Pods-NihonGo-NihonGoUITests.debug.xcconfig */,
+				193AD95627DD91ACB3D86319 /* Pods-NihonGo-NihonGoUITests.release.xcconfig */,
+				B75C4017348DE4477EC241C4 /* Pods-NihonGoTests.debug.xcconfig */,
+				C23A6A43D452ACD37D6C410D /* Pods-NihonGoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA1D33992BB5D0E30006E623 = {
+			isa = PBXGroup;
+			children = (
+				CA72D7CF2BC76DAA00700256 /* VocabWidgetExtension.entitlements */,
+				CA1D33A42BB5D0E30006E623 /* NihonGo */,
+				CA1D33B52BB5D0E70006E623 /* NihonGoTests */,
+				CA1D33BF2BB5D0E70006E623 /* NihonGoUITests */,
+				CA72D7C12BC76C1A00700256 /* VocabWidget */,
+				CA1D33A32BB5D0E30006E623 /* Products */,
+				A2740D6E211C86DCBBC37B5B /* Pods */,
+				323DA18F7A0ED9C46756B270 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA1D33A32BB5D0E30006E623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D33A22BB5D0E30006E623 /* NihonGo.app */,
+				CA1D33B22BB5D0E70006E623 /* NihonGoTests.xctest */,
+				CA1D33BC2BB5D0E70006E623 /* NihonGoUITests.xctest */,
+				CA72D7BE2BC76C1A00700256 /* VocabWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA1D33A42BB5D0E30006E623 /* NihonGo */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D33A52BB5D0E30006E623 /* NihonGoApp.swift */,
+				CA1D33D02BB5D11A0006E623 /* Views */,
+				CA1D33D12BB5D21E0006E623 /* ViewModel */,
+				CA1D33CF2BB5D10C0006E623 /* Model */,
+				CA1D33A92BB5D0E70006E623 /* Assets.xcassets */,
+				CA1D33AB2BB5D0E70006E623 /* Preview Content */,
+			);
+			path = NihonGo;
+			sourceTree = "<group>";
+		};
+		CA1D33AB2BB5D0E70006E623 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D33AC2BB5D0E70006E623 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA1D33B52BB5D0E70006E623 /* NihonGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D33B62BB5D0E70006E623 /* NihonGoTests.swift */,
+			);
+			path = NihonGoTests;
+			sourceTree = "<group>";
+		};
+		CA1D33BF2BB5D0E70006E623 /* NihonGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D33C02BB5D0E70006E623 /* NihonGoUITests.swift */,
+				CA1D33C22BB5D0E70006E623 /* NihonGoUITestsLaunchTests.swift */,
+			);
+			path = NihonGoUITests;
+			sourceTree = "<group>";
+		};
+		CA1D33CF2BB5D10C0006E623 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D33DA2BB5D9D90006E623 /* kanji.json */,
+				CA1D33D42BB5D3470006E623 /* vocab.json */,
+				CA1D33D22BB5D2490006E623 /* Vocab.swift */,
+				CA991DC52BBDBEA6004C8944 /* DestinationInfo.swift */,
+				CA1D33E22BB758F50006E623 /* Vocab+Color.swift */,
+				CA1D33DC2BB5DA670006E623 /* Kanji.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA1D33D02BB5D11A0006E623 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D33A72BB5D0E30006E623 /* ContentView.swift */,
+				CA25FBF62BDEEFAC0074C8F5 /* StreakView.swift */,
+				CA991DC92BC09EFE004C8944 /* DismissButton.swift */,
+				CA72D7982BC7320F00700256 /* LiveTextViews */,
+				CAF43D9A2BB8DD6100B95A44 /* KanjiPracticeViews */,
+				CA1D33E62BB876510006E623 /* VocabReviewViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA1D33D12BB5D21E0006E623 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D33D82BB5D8500006E623 /* Manager.swift */,
+				CA72D7962BC7314900700256 /* Manager+LiveText.swift */,
+				CA991DC32BBCABFF004C8944 /* TextToSpeech.swift */,
+				CA991DC12BBCAB97004C8944 /* Manager+Kanji.swift */,
+				CAF43DA02BB8E7DE00B95A44 /* Manager+FlashCards.swift */,
+				CAF43DA22BB920EA00B95A44 /* KanjiRecognizer.swift */,
+				CA991DBD2BBC8685004C8944 /* Translator.swift */,
+				CA1D33D62BB5D5FF0006E623 /* StorageManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA1D33E62BB876510006E623 /* VocabReviewViews */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D33DE2BB6685F0006E623 /* FlashCard.swift */,
+				CA991DC72BBF56DA004C8944 /* HintButtonView.swift */,
+				CA1D33E42BB86AA20006E623 /* VocabLessonPicker.swift */,
+				CA1D33E02BB74ED60006E623 /* FlashCardView.swift */,
+				CA1D33E72BB876740006E623 /* LessonView.swift */,
+				CA25FBF42BD89F700074C8F5 /* SettingsButton.swift */,
+			);
+			path = VocabReviewViews;
+			sourceTree = "<group>";
+		};
+		CA72D7982BC7320F00700256 /* LiveTextViews */ = {
+			isa = PBXGroup;
+			children = (
+				CA72D7922BC4A3E900700256 /* LiveTranslationView.swift */,
+				CA72D7902BC4601600700256 /* LiveTextView.swift */,
+				CA72D7942BC4D15F00700256 /* CustomTextView.swift */,
+			);
+			path = LiveTextViews;
+			sourceTree = "<group>";
+		};
+		CA72D7C12BC76C1A00700256 /* VocabWidget */ = {
+			isa = PBXGroup;
+			children = (
+				CA72D7C22BC76C1A00700256 /* VocabWidgetBundle.swift */,
+				CA72D7C42BC76C1A00700256 /* VocabWidget.swift */,
+				CA72D7C62BC76C1B00700256 /* Assets.xcassets */,
+				CA72D7C82BC76C1B00700256 /* Info.plist */,
+			);
+			path = VocabWidget;
+			sourceTree = "<group>";
+		};
+		CAF43D9A2BB8DD6100B95A44 /* KanjiPracticeViews */ = {
+			isa = PBXGroup;
+			children = (
+				CA991DBF2BBCA87A004C8944 /* KanjiLessonPicker.swift */,
+				CAF43D982BB8DD5A00B95A44 /* KanjiPracticeView.swift */,
+				CAF43D9E2BB8E10D00B95A44 /* KanjiWritingView.swift */,
+				CA991DB92BBC6841004C8944 /* KanjiView.swift */,
+				CA991DBB2BBC6C3D004C8944 /* KanjiBottomView.swift */,
+			);
+			path = KanjiPracticeViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA1D33A12BB5D0E30006E623 /* NihonGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1D33C62BB5D0E70006E623 /* Build configuration list for PBXNativeTarget "NihonGo" */;
+			buildPhases = (
+				87FE953E545575BD40FF937D /* [CP] Check Pods Manifest.lock */,
+				CA1D339E2BB5D0E30006E623 /* Sources */,
+				CA1D339F2BB5D0E30006E623 /* Frameworks */,
+				CA1D33A02BB5D0E30006E623 /* Resources */,
+				0B0A1593A8685A0B9F7C44B2 /* [CP] Embed Pods Frameworks */,
+				704EBB3B8BA67C5534D5BEE2 /* [CP] Copy Pods Resources */,
+				CA72D7B62BC7338600700256 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA72D7CA2BC76C1B00700256 /* PBXTargetDependency */,
+			);
+			name = NihonGo;
+			productName = NihonGo;
+			productReference = CA1D33A22BB5D0E30006E623 /* NihonGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA1D33B12BB5D0E70006E623 /* NihonGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1D33C92BB5D0E70006E623 /* Build configuration list for PBXNativeTarget "NihonGoTests" */;
+			buildPhases = (
+				4DE07C9C8100BBED66CE97D9 /* [CP] Check Pods Manifest.lock */,
+				CA1D33AE2BB5D0E70006E623 /* Sources */,
+				CA1D33AF2BB5D0E70006E623 /* Frameworks */,
+				CA1D33B02BB5D0E70006E623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1D33B42BB5D0E70006E623 /* PBXTargetDependency */,
+			);
+			name = NihonGoTests;
+			productName = NihonGoTests;
+			productReference = CA1D33B22BB5D0E70006E623 /* NihonGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA1D33BB2BB5D0E70006E623 /* NihonGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1D33CC2BB5D0E70006E623 /* Build configuration list for PBXNativeTarget "NihonGoUITests" */;
+			buildPhases = (
+				94D4F07BC29F29A4B998EA16 /* [CP] Check Pods Manifest.lock */,
+				CA1D33B82BB5D0E70006E623 /* Sources */,
+				CA1D33B92BB5D0E70006E623 /* Frameworks */,
+				CA1D33BA2BB5D0E70006E623 /* Resources */,
+				2BED784B1C01C05CBCD5CC4B /* [CP] Embed Pods Frameworks */,
+				675F2A582D65C2451073FFAC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1D33BE2BB5D0E70006E623 /* PBXTargetDependency */,
+			);
+			name = NihonGoUITests;
+			productName = NihonGoUITests;
+			productReference = CA1D33BC2BB5D0E70006E623 /* NihonGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CA72D7BD2BC76C1A00700256 /* VocabWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA72D7CC2BC76C1B00700256 /* Build configuration list for PBXNativeTarget "VocabWidgetExtension" */;
+			buildPhases = (
+				CA72D7BA2BC76C1A00700256 /* Sources */,
+				CA72D7BB2BC76C1A00700256 /* Frameworks */,
+				CA72D7BC2BC76C1A00700256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VocabWidgetExtension;
+			productName = VocabWidgetExtension;
+			productReference = CA72D7BE2BC76C1A00700256 /* VocabWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA1D339A2BB5D0E30006E623 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CA1D33A12BB5D0E30006E623 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CA1D33B12BB5D0E70006E623 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CA1D33A12BB5D0E30006E623;
+					};
+					CA1D33BB2BB5D0E70006E623 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CA1D33A12BB5D0E30006E623;
+					};
+					CA72D7BD2BC76C1A00700256 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = CA1D339D2BB5D0E30006E623 /* Build configuration list for PBXProject "NihonGo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA1D33992BB5D0E30006E623;
+			productRefGroup = CA1D33A32BB5D0E30006E623 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA1D33A12BB5D0E30006E623 /* NihonGo */,
+				CA1D33B12BB5D0E70006E623 /* NihonGoTests */,
+				CA1D33BB2BB5D0E70006E623 /* NihonGoUITests */,
+				CA72D7BD2BC76C1A00700256 /* VocabWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA1D33A02BB5D0E30006E623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1D33AD2BB5D0E70006E623 /* Preview Assets.xcassets in Resources */,
+				CA1D33D52BB5D3470006E623 /* vocab.json in Resources */,
+				CA1D33AA2BB5D0E70006E623 /* Assets.xcassets in Resources */,
+				CA1D33DB2BB5D9D90006E623 /* kanji.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1D33B02BB5D0E70006E623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1D33BA2BB5D0E70006E623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA72D7BC2BC76C1A00700256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA72D7C72BC76C1B00700256 /* Assets.xcassets in Resources */,
+				CA72D7D52BC7779A00700256 /* vocab.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B0A1593A8685A0B9F7C44B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NihonGo/Pods-NihonGo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NihonGo/Pods-NihonGo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NihonGo/Pods-NihonGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BED784B1C01C05CBCD5CC4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NihonGo-NihonGoUITests/Pods-NihonGo-NihonGoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NihonGo-NihonGoUITests/Pods-NihonGo-NihonGoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NihonGo-NihonGoUITests/Pods-NihonGo-NihonGoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DE07C9C8100BBED66CE97D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NihonGoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		675F2A582D65C2451073FFAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NihonGo-NihonGoUITests/Pods-NihonGo-NihonGoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NihonGo-NihonGoUITests/Pods-NihonGo-NihonGoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NihonGo-NihonGoUITests/Pods-NihonGo-NihonGoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		704EBB3B8BA67C5534D5BEE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NihonGo/Pods-NihonGo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NihonGo/Pods-NihonGo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NihonGo/Pods-NihonGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87FE953E545575BD40FF937D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NihonGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94D4F07BC29F29A4B998EA16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NihonGo-NihonGoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA1D339E2BB5D0E30006E623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA72D7932BC4A3E900700256 /* LiveTranslationView.swift in Sources */,
+				CA72D7D02BC76F2000700256 /* VocabWidget.swift in Sources */,
+				CAF43DA32BB920EA00B95A44 /* KanjiRecognizer.swift in Sources */,
+				CA72D7912BC4601600700256 /* LiveTextView.swift in Sources */,
+				CA991DC82BBF56DA004C8944 /* HintButtonView.swift in Sources */,
+				CA1D33E12BB74ED60006E623 /* FlashCardView.swift in Sources */,
+				CA991DBA2BBC6842004C8944 /* KanjiView.swift in Sources */,
+				CA991DBC2BBC6C3D004C8944 /* KanjiBottomView.swift in Sources */,
+				CA991DC42BBCABFF004C8944 /* TextToSpeech.swift in Sources */,
+				CA72D7972BC7314900700256 /* Manager+LiveText.swift in Sources */,
+				CA991DCA2BC09EFE004C8944 /* DismissButton.swift in Sources */,
+				CAF43D992BB8DD5A00B95A44 /* KanjiPracticeView.swift in Sources */,
+				CA1D33A82BB5D0E30006E623 /* ContentView.swift in Sources */,
+				CA72D7952BC4D15F00700256 /* CustomTextView.swift in Sources */,
+				CAF43D9F2BB8E10D00B95A44 /* KanjiWritingView.swift in Sources */,
+				CA1D33A62BB5D0E30006E623 /* NihonGoApp.swift in Sources */,
+				CA1D33E82BB876740006E623 /* LessonView.swift in Sources */,
+				CA991DC62BBDBEA6004C8944 /* DestinationInfo.swift in Sources */,
+				CA1D33D32BB5D2490006E623 /* Vocab.swift in Sources */,
+				CA1D33E32BB758F50006E623 /* Vocab+Color.swift in Sources */,
+				CA991DC02BBCA87A004C8944 /* KanjiLessonPicker.swift in Sources */,
+				CA1D33D72BB5D5FF0006E623 /* StorageManager.swift in Sources */,
+				CA25FBF52BD89F700074C8F5 /* SettingsButton.swift in Sources */,
+				CA1D33D92BB5D8500006E623 /* Manager.swift in Sources */,
+				CA991DBE2BBC8685004C8944 /* Translator.swift in Sources */,
+				CAF43DA12BB8E7DE00B95A44 /* Manager+FlashCards.swift in Sources */,
+				CA1D33DF2BB6685F0006E623 /* FlashCard.swift in Sources */,
+				CA991DC22BBCAB97004C8944 /* Manager+Kanji.swift in Sources */,
+				CA1D33E52BB86AA20006E623 /* VocabLessonPicker.swift in Sources */,
+				CA25FBF72BDEEFAC0074C8F5 /* StreakView.swift in Sources */,
+				CA1D33DD2BB5DA670006E623 /* Kanji.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1D33AE2BB5D0E70006E623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1D33B72BB5D0E70006E623 /* NihonGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1D33B82BB5D0E70006E623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1D33C12BB5D0E70006E623 /* NihonGoUITests.swift in Sources */,
+				CA1D33C32BB5D0E70006E623 /* NihonGoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA72D7BA2BC76C1A00700256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA72D7D22BC770E100700256 /* StorageManager.swift in Sources */,
+				CA72D7D32BC7718700700256 /* Vocab.swift in Sources */,
+				CA72D7C32BC76C1A00700256 /* VocabWidgetBundle.swift in Sources */,
+				CA72D7C52BC76C1A00700256 /* VocabWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA1D33B42BB5D0E70006E623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1D33A12BB5D0E30006E623 /* NihonGo */;
+			targetProxy = CA1D33B32BB5D0E70006E623 /* PBXContainerItemProxy */;
+		};
+		CA1D33BE2BB5D0E70006E623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1D33A12BB5D0E30006E623 /* NihonGo */;
+			targetProxy = CA1D33BD2BB5D0E70006E623 /* PBXContainerItemProxy */;
+		};
+		CA72D7CA2BC76C1B00700256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA72D7BD2BC76C1A00700256 /* VocabWidgetExtension */;
+			targetProxy = CA72D7C92BC76C1B00700256 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA1D33C42BB5D0E70006E623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA1D33C52BB5D0E70006E623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA1D33C72BB5D0E70006E623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B333659578469D55218F789 /* Pods-NihonGo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NihonGo/NihonGo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NihonGo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M69C2XL7X;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Live translate Japanese text";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.mks6942.NihonGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA1D33C82BB5D0E70006E623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96513448988A31435D15F7FE /* Pods-NihonGo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NihonGo/NihonGo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NihonGo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M69C2XL7X;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Live translate Japanese text";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.mks6942.NihonGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA1D33CA2BB5D0E70006E623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75C4017348DE4477EC241C4 /* Pods-NihonGoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8M69C2XL7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.mks6942.NihonGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NihonGo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NihonGo";
+			};
+			name = Debug;
+		};
+		CA1D33CB2BB5D0E70006E623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23A6A43D452ACD37D6C410D /* Pods-NihonGoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8M69C2XL7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.mks6942.NihonGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NihonGo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NihonGo";
+			};
+			name = Release;
+		};
+		CA1D33CD2BB5D0E70006E623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E74843B52677D78DB7EBD28E /* Pods-NihonGo-NihonGoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8M69C2XL7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.mks6942.NihonGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NihonGo;
+			};
+			name = Debug;
+		};
+		CA1D33CE2BB5D0E70006E623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193AD95627DD91ACB3D86319 /* Pods-NihonGo-NihonGoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8M69C2XL7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.mks6942.NihonGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NihonGo;
+			};
+			name = Release;
+		};
+		CA72D7CD2BC76C1B00700256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = VocabWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8M69C2XL7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VocabWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VocabWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.mks6942.NihonGo.VocabWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA72D7CE2BC76C1B00700256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = VocabWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8M69C2XL7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VocabWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VocabWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.mks6942.NihonGo.VocabWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA1D339D2BB5D0E30006E623 /* Build configuration list for PBXProject "NihonGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1D33C42BB5D0E70006E623 /* Debug */,
+				CA1D33C52BB5D0E70006E623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1D33C62BB5D0E70006E623 /* Build configuration list for PBXNativeTarget "NihonGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1D33C72BB5D0E70006E623 /* Debug */,
+				CA1D33C82BB5D0E70006E623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1D33C92BB5D0E70006E623 /* Build configuration list for PBXNativeTarget "NihonGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1D33CA2BB5D0E70006E623 /* Debug */,
+				CA1D33CB2BB5D0E70006E623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1D33CC2BB5D0E70006E623 /* Build configuration list for PBXNativeTarget "NihonGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1D33CD2BB5D0E70006E623 /* Debug */,
+				CA1D33CE2BB5D0E70006E623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA72D7CC2BC76C1B00700256 /* Build configuration list for PBXNativeTarget "VocabWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA72D7CD2BC76C1B00700256 /* Debug */,
+				CA72D7CE2BC76C1B00700256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA1D339A2BB5D0E30006E623 /* Project object */;
+}
